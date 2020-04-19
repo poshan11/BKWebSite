@@ -293,7 +293,11 @@
     fixedContentPos: false
   });
 
-
+//  redirecting for BKACTS.com domain
+let url = window.location.href.split('.com')[0]
+if (url == "http://www.bkacts") {
+	window.location.replace("http://www.taxaccount.info");
+}
 
 
 })(jQuery);
